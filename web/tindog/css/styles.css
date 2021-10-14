@@ -1,0 +1,183 @@
+body{
+    font-family: "Montserrat";
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat-bold";
+}
+p{
+    color: #8f8f8f;
+}
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1
+{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+
+.caption{
+    text-align: left;
+    font-weight: bolder;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    font-style: bold; 
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    
+    font-size: 1.5rem;
+}
+
+.download-btn{
+    margin:3% 5% 3% 0;
+}
+
+i{
+    padding: 5%;
+    color: #ef8172;
+}
+
+.ph-img{
+   
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+
+#features{
+    background-color: #fff;
+    position: relative;
+    
+}
+
+i:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: "monsterrat-bold";
+}
+
+.testimonial-img{
+    border-radius: 50%;
+    margin: 5%;
+    width: 20%;
+}
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 15%;
+    margin-left:3%
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    text-align: center;
+}
+
+.col-pricing {
+    padding: 3% 2%;
+}
+
+@media (max-width:992px) {
+
+    .ph-img{
+        transform: rotate(0deg);
+        position: static;
+        width: 50%;
+        margin-top: 3%;
+    }
+
+    .caption{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:992px) and (max-width:1183px) {
+
+    .ph-img{
+        width: 60%;
+        top: -1%;
+        left: 25%;
+    }
+    
+}
+
+@media (min-width:1183px) {
+
+    .ph-img{
+        width:50%;
+        top:-25%;
+        right: 30%;
+
+    }
+    
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-bold';
+    color: #fff;
+    padding: 7%;
+}
+
+.cta-txt{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5%;
+    /* margin-top: -5%; */
+}
+
+.fa-apple{
+    color: #fff;
+}
+
+.fa-google-play{
+    color: black;
+}
+
+#footer{
+    padding: 5% 7% 1% 7%;
+    
+}
+
+.footer-icons i{
+    padding: 1%;
+    color: black;
+
+}
+
