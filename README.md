@@ -1,4 +1,3 @@
-# few-projects
 # Hacktoberfest 2021
 
 # Event details :
